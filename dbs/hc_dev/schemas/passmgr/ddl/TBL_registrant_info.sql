@@ -19,3 +19,7 @@ CREATE TABLE passmgr.registrant_info(
 ); 
 -- initial data load 
 INSERT INTO passmgr.registrant_info (first_name, last_name, dob, gender, secretq, secreta, created_by) VALUES ('Harleen', 'Chaudhary', '2000-06-16', 'female', 'What was the name of your first pet?', 'Buddy', 'hchaudhary');
+
+--New record added henceforth
+
+INSERT INTO passmgr.registrant_info (first_name, last_name, dob, gender, secretq, secreta, created_by) VALUES ('Shurmin', 'Chaudhary', '2002-07-11', 'female', 'Where were you born?', 'Ludhiana', 'hchaudhary');
